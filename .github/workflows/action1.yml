@@ -1,0 +1,13 @@
+name: Workflow 1
+on: push
+
+jobs: 
+    job1: 
+        runs-on: ubuntu-latest
+        steps:
+            - name: Action message
+            run: echo "Ping Message"
+
+            - name: List files
+            run: ls
+            
