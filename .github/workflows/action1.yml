@@ -6,8 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Action message
-            run: echo "Ping Message"
+              run: echo "Ping Message"
 
             - name: List files
-            run: ls
-            
+              run: ls
